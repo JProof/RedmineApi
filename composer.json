@@ -1,0 +1,29 @@
+{
+  "name": "jproof/redmineapi",
+  "description": "Php Api for Redmine",
+  "type": "library",
+  "license": "GNU General Public License v3.0",
+  "authors": [
+    {
+      "name": "JProof",
+      "email": "info@jproof.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JProof\\RedmineApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JProof\\RedmineApi\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/php-code-coverage": "5.*"
+  }
+}
